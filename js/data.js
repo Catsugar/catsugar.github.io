@@ -78,6 +78,14 @@
 				                                           {name: "产品评论", url:"https://catsugar.github.io/Tmall-pages/comment.html"},
 				                                           {name: "购物车页", url:"https://catsugar.github.io/Tmall-pages/shopcar.html"},
 				                                           {name: "筛选页", url:"https://catsugar.github.io/Tmall-pages/Select.html"}
+														 ]},
+                 {name: "Demo of canvas ",url:"null",children: [ {name: "房子", url:"https://catsugar.github.io/Learn-canvas/canvas-0/house.html"},
+				                                           {name: "倒计时动画作业", url:"https://catsugar.github.io/Learn-canvas/canvas-1/time.html"},
+				                                           {name: "群魔乱舞的星星", url:"https://catsugar.github.io/Learn-canvas/canvas-3/canvas-3.html"},
+				                                           {name: "放大缩小和位移", url:"https://catsugar.github.io/Learn-canvas/canvas-4/canvas-4.html"},
+				                                           {name: "彩色小球", url:"https://catsugar.github.io/Learn-canvas/canvas-7/canvas-7.html"},
+				                                           {name: "探照灯", url:"https://catsugar.github.io/Learn-canvas/canvas-8/canvas-8.html"},
+				                                           {name: "爆小球", url:"https://catsugar.github.io/Learn-canvas/canvas-9/canvas-9.html"}
 														 ]}
 
 			  ];
