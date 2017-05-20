@@ -54,8 +54,30 @@
 										   {name: "材质与纹理",url:"https://catsugar.github.io/my-ife2017/Task48/Task48.html"} ,
 										   {name: "照相机和交互控制",url:"https://catsugar.github.io/my-ife2017/Task49/Task49.html"} ,
 							               {name: "动画",url:"https://catsugar.github.io/my-ife2017/Task50/Task50.html"} ,
-							               {name: "零基础绘制ECharts图表",url:"https://catsugar.github.io/my-ife2017/Task51/Task51.html"} 
+							               {name: "零基础绘制ECharts图表",url:"https://catsugar.github.io/my-ife2017/Task51/Task51.html"},
+										   {name: "实现自定义的统计图表",url:"https://catsugar.github.io/my-ife2017/Task52/Task52.html"} 
 							              ]},
-			                  {name: "商业平台学院", url:"null"}]}
+			                  {name: "商业平台学院", url:"null"}]},
+				 {name: "my Resume",url:"null",children: [ {name: "图片悬停显示", url:"https://catsugar.github.io/Page-demos/showPic/index.html"}]},
+				 {name: "单页小Demo",url:"null",children: [ {name: "图片悬停伸展", url:"https://catsugar.github.io/Page-demos/showPic/side.html"},
+				                                           {name: "照片墙", url:"https://catsugar.github.io/Page-demos/photowall/photowall.html"},
+				                                           {name: "tab切换", url:"https://catsugar.github.io/Page-demos/page_switching/tab.html"},
+				                                           {name: "tab自动切换", url:"https://catsugar.github.io/Page-demos/page_switching/tab-auto.html"},
+				                                           {name: "tab延时切换", url:"https://catsugar.github.io/Page-demos/page_switching/tab-delay.html"},
+				                                           {name: "导航栏", url:"https://catsugar.github.io/Page-demos/navigation/index.html"},
+				                                           {name: "定位", url:"https://catsugar.github.io/Page-demos/mao/index.html"},
+				                                           {name: "计时抽奖", url:"https://catsugar.github.io/Page-demos/lottery/index.html"},
+				                                           {name: "焦点图", url:"https://catsugar.github.io/Page-demos/banner/banner.html"},
+				                                           {name: "touch动画", url:"https://catsugar.github.io/Page-demos/animation/index.html"},
+				                                           {name: "瀑布流布局", url:"https://catsugar.github.io/Page-demos/waterfall/index.html"}
+														 ]},
+				 {name: "仿写的几个天猫的静态页面",url:"null",children: [ {name: "主页", url:"https://catsugar.github.io/Tmall-pages/#"},
+				                                           {name: "登录页", url:"https://catsugar.github.io/Tmall-pages/login.html"},
+				                                           {name: "产品展示页", url:"https://catsugar.github.io/Tmall-pages/Product.html"},
+				                                           {name: "产品详细页", url:"https://catsugar.github.io/Tmall-pages/detail.html"},
+				                                           {name: "产品评论", url:"https://catsugar.github.io/Tmall-pages/comment.html"},
+				                                           {name: "购物车页", url:"https://catsugar.github.io/Tmall-pages/shopcar.html"},
+				                                           {name: "筛选页", url:"https://catsugar.github.io/Tmall-pages/Select.html"}
+														 ]}
 
 			  ];
