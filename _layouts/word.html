@@ -1,0 +1,82 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- 包含头部信息用于适应不同设备 -->
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+<link rel="shortcut icon" href="images/favicon0.ico">
+<title>猫の家</title>
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="css/blog.css">
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/blog.js"></script>
+</head>
+<body>
+<!--------导航------------------------------------------------------------------------>
+<header id="header" >
+  <div class="navbox">
+    <div class="nav-left"> <a class="navbar-brand" href="#"  >猫岁的窝</a> </div>
+    <ul class="nav-right">
+        <li onClick="uppage()"><a href="blog.html">Home</a></li>
+        <li onClick="downpage()"><a href="blog.html">Blog</a></li>
+        <li><a href="pro.html">Portfolio</a></li>
+        <li><a href="https://github.com/Catsugar">Github</a></li>
+        <li id="rightbtn"><a href="javascript:void(0)" >Menu</a></li>
+     </ul>
+  </div>
+</header>
+<!--------返回按钮------------------------------------------------------------------------>
+<div id="backbtn" style="display:none">返回顶部</div>
+<!--------侧栏------------------------------------------------------------------------>
+<div class="cover" id="cover" style="display:none"></div>
+<div id="rightbar" class="rightbar">
+  <div class="closebtn" id="rightnone"><i class="iconfont">&#xe600;</i></div>
+  <ul id="menu">
+    <li class="active" ><a href="">All</a></li>
+    <li class=""><a href="">笔记</a></li>
+    <li class=""><a href="">随笔</a></li>
+    <li class=""><a href="">乱弹</a></li>
+    <li class=""><a href="">吐槽</a></li>
+    <li ><a href="">收起列表</a></li>
+  </ul>
+</div>
+<!--------文章1---------------------------------------------------------------------->
+<div class="myBox">
+  <div class="myItem myActicle">
+    <div class="myTitle"> <span class="myIco">
+      <div style="background:url(images/girl.png) center center no-repeat"></div>
+      </span> </div>
+    <h2 class="leader text-center">{{ page.title }}</h2>
+    <div class="myActicleInfo"> <span class="myTime">2017年5月15日</span> <span>&nbsp;&nbsp;阅读：&nbsp;</span><span class="myread">1000</span> <span>&nbsp;&nbsp;点赞：&nbsp;</span><span class="mylove">1000</span><br>
+    </div>
+    <span class="label label-default">默认标签</span> 
+    <span class="label label-primary">主要标签</span> 
+    <span class="label label-success">成功标签</span> 
+    <span class="label label-info">信息标签</span> 
+    <span class="label label-warning">警告标签</span> 
+    <span class="label label-danger">危险标签</span>
+    <hr>
+    <div class="mytext">
+      <p>{{ content }}</p>
+    </div>
+    <hr>
+    <div class="lovebtn" id="lovebtn">赞</div>
+    <textarea ></textarea>
+    <button class="commentbtn">留言</button>
+    <ul class="commentbox">
+      <li><img src="images/touxiang.jpg"><a href="">实验君：</a>英俊的博主么么<a href="" class="reply">回复</a></li>
+      <li><img src="images/touxiang.jpg"><a href="">实验君：</a>英俊的博主么么哒！<a href="" class="reply">回复</a></li>
+      <li><img src="images/touxiang.jpg"><a href="">实验君：</a>英俊的博主么么哒！<a href="" class="reply">回复</a></li>
+      <li><img src="images/touxiang.jpg"><a href="">实验君：</a>英俊的博主么么哒！<a href="" class="reply">回复</a></li>
+    </ul>
+  </div>
+</div>
+<!------------------------------页脚-------------------------------------------------->
+  <div class="foot">
+      <p class="bd"> <a href="blog.html">Home</a> | <a  href="https://catsugar.github.io/my-Resume/CV/CV1.0.html">Resume</a> | <a href="pro.html">Portfolio</a> | <a href="https://github.com/Catsugar">Github</a> </p>
+      <p class="ft">Copyright © Catsugar. All Rights Reserved</p>
+  </div>
+</div>
+</body>
+</html>
