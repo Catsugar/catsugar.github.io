@@ -16,10 +16,10 @@
 <!--------导航------------------------------------------------------------------------>
 <header id="header" >
   <div class="navbox">
-    <div class="nav-left"> <a class="navbar-brand" href="https://catsugar.github.io"  >猫岁的窝</a> </div>
+    <div class="nav-left"> <a class="navbar-brand" href="{{ site.baseurl }}"  >猫岁的窝</a> </div>
     <ul class="nav-right">
-        <li ><a href="https://catsugar.github.io">Home</a></li>
-        <li><a href="https://catsugar.github.io">Blog</a></li>
+        <li ><a href="{{ site.baseurl }}">Home</a></li>
+        <li><a href="{{ site.baseurl }}">Blog</a></li>
         <li><a href="{{ site.baseurl }}/pro.html">Portfolio</a></li>
         <li><a href="https://github.com/Catsugar">Github</a></li>
         <li id="rightbtn"><a href="javascript:void(0)" >Menu</a></li>
@@ -71,7 +71,7 @@
 </div>
 <!------------------------------页脚-------------------------------------------------->
   <div class="foot">
-      <p class="bd"> <a href=href="https://catsugar.github.io">Home</a> | <a  href="https://catsugar.github.io/my-Resume/CV/CV1.0.html">Resume</a> | <a href="{{ site.baseurl }}/pro.html">Portfolio</a> | <a href="https://github.com/Catsugar">Github</a> </p>
+      <p class="bd"> <a href="{{ site.baseurl }}">Home</a> | <a  href="https://catsugar.github.io/my-Resume/CV/CV1.0.html">Resume</a> | <a href="{{ site.baseurl }}/pro.html">Portfolio</a> | <a href="https://github.com/Catsugar">Github</a> </p>
       <p class="ft">Copyright © Catsugar. All Rights Reserved</p>
   </div>
 </div>
