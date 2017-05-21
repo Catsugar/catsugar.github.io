@@ -1,3 +1,4 @@
+var tips=["label-default","label-primary","label-success","label-info","label-warning","label-danger"];
 //打开封面
 function downpage(){
 	 $('#section1').animate({ top:'-1000px'},1000);
@@ -7,7 +8,23 @@ function uppage(){
 	 $('#section1').animate({ top:'0px'},1000,function(){
 	 $('#section2').fadeOut();})//回调函数
 }
+
 $(document).ready(function(){
+	//给标签添加颜色
+	var j=0;
+    for(var i=0;i<$('.label').length;i++){
+		if(i%tips.length===0){j=0;}
+        $('.label:eq('+i+')').addClass(tips[j]);
+		j++;
+		
+	}
+    //给标签添加头像
+	var b=0;
+    for(var a=0;a<$('.photo').length;a++){
+        $('.photo:eq('+a+')').css("background","url(https://catsugar.github.io/icon/"+b+".png) center center no-repeat");
+		b++;
+		if(a===23){b=0;}
+	}
 	//加载特效
     $('#main_top').animate({ opacity: '1',paddingTop:'10%'},1000);
 	/*****展开左边侧栏*******/

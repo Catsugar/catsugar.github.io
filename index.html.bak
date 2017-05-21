@@ -7,7 +7,7 @@ layout: default
 <div class="myItem post">
    <div class="myTitle"> 
      <span class="myIco">
-       <div class="photo"></div>
+       <div style="background:url(images/girl.png) center center no-repeat"></div>
      </span> 
    </div>
    <h2 class="leader text-center">{{ post.title }}</h2>
