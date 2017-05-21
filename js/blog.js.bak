@@ -11,15 +11,17 @@ function uppage(){
 
 $(document).ready(function(){
 	//给标签添加颜色
-	j=Math.round(Math.random()*5);
+	var j=0;
     for(var i=0;i<$('.label').length;i++){
+		j=Math.round(Math.random()*5);
 		if(i%tips.length===0){j=0;}
         $('.label:eq('+i+')').addClass(tips[j]);
 		j++;
 	}
     //给标签添加头像
-	b=Math.round(Math.random()*23);
+	var b=0;
     for(var a=0;a<$('.photo').length;a++){
+		b=Math.round(Math.random()*23);
         $('.photo:eq('+a+')').css("background","url(https://catsugar.github.io/icon/"+b+".png) center center no-repeat");
 		b++;
 		if(a===23){b=0;}
