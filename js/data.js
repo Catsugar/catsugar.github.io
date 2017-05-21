@@ -58,10 +58,10 @@
 										   {name: "实现自定义的统计图表",url:"https://catsugar.github.io/my-ife2017/Task52/Task52.html"} 
 							              ]},
 			                  {name: "商业平台学院", url:"null"}]},
-				 {name: "my Resume",url:"null",children: [{name: "my Resume", url:"https://catsugar.github.io/my-Resume/CV/CV1.0.html"}]},
-				 {name: "单页小Demo",url:"null",children: [{name: "图片悬停显示", url:"https://catsugar.github.io/Page-demos/showPic/index.html"}，
-											               {name: "图片悬停伸展", url:"https://catsugar.github.io/Page-demos/showPic/side.html"},
-				                                           {name: "照片墙", url:"https://catsugar.github.io/Page-demos/photowall/photowall.html"},
+				 {name: "my Resume",url:"null",children: [ {name: "my Resume", url:"https://catsugar.github.io/my-Resume/CV/CV1.0.html"}]},
+				 {name: "单页小Demo",url:"null",children: [ {name: "图片悬停伸展", url:"https://catsugar.github.io/Page-demos/showPic/side.html"},
+				                                           {name: "图片悬停显示", url:"https://catsugar.github.io/Page-demos/showPic/index.html"},
+											               {name: "照片墙", url:"https://catsugar.github.io/Page-demos/photowall/photowall.html"},
 				                                           {name: "tab切换", url:"https://catsugar.github.io/Page-demos/page_switching/tab.html"},
 				                                           {name: "tab自动切换", url:"https://catsugar.github.io/Page-demos/page_switching/tab-auto.html"},
 				                                           {name: "tab延时切换", url:"https://catsugar.github.io/Page-demos/page_switching/tab-delay.html"},
