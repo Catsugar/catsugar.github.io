@@ -13,17 +13,14 @@ $(document).ready(function(){
 	//给标签添加颜色
 	var j=0;
     for(var i=0;i<$('.label').length;i++){
-		if(i%tips.length===0){j=0;}
+		j=Math.round(Math.random()*5);
         $('.label:eq('+i+')').addClass(tips[j]);
-		j++;
-		
 	}
     //给标签添加头像
 	var b=0;
     for(var a=0;a<$('.photo').length;a++){
+		b=Math.round(Math.random()*23);
         $('.photo:eq('+a+')').css("background","url(https://catsugar.github.io/icon/"+b+".png) center center no-repeat");
-		b++;
-		if(a===23){b=0;}
 	}
 	//加载特效
     $('#main_top').animate({ opacity: '1',paddingTop:'10%'},1000);
