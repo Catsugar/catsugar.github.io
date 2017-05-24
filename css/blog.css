@@ -320,6 +320,7 @@ body{
 .mytext{width: 100%;}
 .mytext p{
 	font-size:14px;
+	line-height:24px;
 	width:100%;
 	text-align:left;
 	text-indent:2em;}
