@@ -273,7 +273,7 @@ body{
 .myBox {
 	margin:0 auto;
 	padding-top:80px;
-	text-align: center;
+	
 	overflow: hidden;
 	width: 80%;
 	position: relative;}
@@ -286,14 +286,16 @@ body{
 	border-radius:3px;}
 .myTitle {
 	margin: 0 auto;
-	display: block;}
+	display: block;
+	text-align: center;}
 .myIco{	
     width: 100px;
 	height: 100px;
 	border-radius:50%;
 	overflow:hidden;
 	background-color:#FFF;
-	display:inline-block;}
+	display:inline-block;
+	text-align: center;}
 /****头像旋转***/
 .myIco:hover {
 	-webkit-transform: rotate(3600deg);
