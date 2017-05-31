@@ -92,26 +92,10 @@ c:\data>cd db
 c:\data\db>
 
 ```
-#### 连接
+#### 打包
 
 ```
 mongod --dbpath D:\MongoDB\data
 ```
 #### 浏览器输入http://localhost:27017/
 
-#### MongoDB安装为Windows服务
-
-```
-sc create MongoDB binPath= "C:\bin\mongod.exe --service --dbpath C:\Users\77381\Desktop\时间轴\工程\mongoDB\momgo-1 --logpath=C:\Users\77381\Desktop\时间轴\工程\mongoDB\momgo-1\logs\mongodb.log  --logappend"
-
-net start MongoDB
-
-```
-#### MongoDB配置文件
-
-```
-sc create MongoDB binPath= "C:\bin\mongod.exe --service --dbpath C:\Users\77381\Desktop\时间轴\工程\mongoDB\momgo-1 --logpath=C:\Users\77381\Desktop\时间轴\工程\mongoDB\momgo-1\logs\mongodb.log  --logappend"
-
-net start MongoDB
-
-```
