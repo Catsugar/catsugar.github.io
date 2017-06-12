@@ -8,7 +8,7 @@ tags:
 - install
 
 ---
-## 记录一下Vue脚手架搭建过程。
+## 记录一下Vue安装过程。
 
 #### 安装npm,vue
 
