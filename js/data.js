@@ -1,5 +1,6 @@
  //数据源
-   var nodes = [ {name: "百度ife",url:"null",
+   var nodes = [{name: "my Blog",url:"null",children: [ {name: "Jekyll+GitHub建的响应式blog", url:"https://catsugar.github.io"}]},
+	            {name: "百度ife",url:"null",
                   children: [ {name: "小薇学院", url:"null", 
 							   children: [ {name: "零基础HTML编码",url:"https://catsugar.github.io/my-ife2017/Task1/Task1.html"},
 										   {name: "零基础HTML及CSS编码（一）",url:"https://catsugar.github.io/my-ife2017/Task2/Task2.html"},
