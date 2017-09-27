@@ -167,7 +167,7 @@ body,a,li,ul,div{
 #menu .active a { color: #fff; background-color:rgba(255,70,70,0.8);}	
 /******************************关于背景的设定***********************************/
 body{
-	background:url(../images/bg2.jpg) no-repeat center center fixed;
+	background-color:rgb(240,233,215);
 	background-size:cover;
 	font: 16px "Microsoft Yahei"; 
 	color: #fff;}
