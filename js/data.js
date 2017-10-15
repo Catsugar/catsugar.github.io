@@ -1,5 +1,7 @@
  //数据源
-   var nodes = [{name: "saowen",url:"null",children: [ {name: "Nodejs+mongdb+Express建的仿站", url:"https://github.com/Catsugar/saowen-web-by-Nodejs"}]},
+   var nodes = [{name: "Nodejs+Vue.js建的仿站",url:"null",
+	              children: [ {name: "saowen-web-by-Nodejs", url:"https://github.com/Catsugar/saowen-web-by-Nodejs"},
+	                          {name: "saowen-app-by-Vue", url:"https://github.com/Catsugar/saowen-app-by-Vue"}]},
                 {name: "my Blog",url:"null",children: [ {name: "Jekyll+GitHub建的响应式blog", url:"https://catsugar.github.io"}]},
 	            {name: "百度ife",url:"null",
                   children: [ {name: "小薇学院", url:"null", 
