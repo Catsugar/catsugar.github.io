@@ -1,14 +1,13 @@
 ---
 layout: post
 title:  "不靠谱学习笔记---Typescript"
-date:   2017-10-1
+date:   2017-10-19
 categories: note
 tags:
 - 笔记
 - Typescript
 
 ---
-# 不靠谱学习笔记---Typescript
 
 
 >这是一个不靠谱的学习笔记。想到啥写啥
