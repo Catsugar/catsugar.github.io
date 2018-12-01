@@ -98,5 +98,8 @@
                  {name: "Demo of Vue.js ",url:"null",children: [ {name: "斐波那契数列", url:"https://catsugar.github.io/Learn-Vue/myVueAPP-1/MyVueAPP-1.html"},
 				                                           {name: "购物车：购物车页面", url:"https://catsugar.github.io/Learn-Vue/myVueAPP-3/shopcar.html"},
 														   {name: "购物车：地址页面", url:"https://catsugar.github.io/Learn-Vue/myVueAPP-3/address.html"}
+														 ]},
+				{name: "Demo of React ",url:"null",children: [ {name: "React综合练习页面", url:"https://github.com/Catsugar/Learn-React"},
+														   {name: "Redux练习页面", url:"https://github.com/Catsugar/Learn-React"}
 														 ]}
 			  ];
