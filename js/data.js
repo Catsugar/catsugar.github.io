@@ -3,6 +3,7 @@
 	              children: [ {name: "saowen-web-by-Nodejs", url:"http://saowen.catsugar.site/"},
 	                          {name: "saowen-app-by-Vue", url:"http://saowen.catsugar.site:3389/"}]},
                 {name: "my Blog",url:"null",children: [ {name: "Jekyll+GitHub建的响应式blog", url:"https://catsugar.github.io"}]},
+                {name: "微信小程序",url:"null",children: [ {name: "月光宝盒", url:"https://github.com/Catsugar/moviebox-weixin"}]},
 	            {name: "百度ife",url:"null",
                   children: [ {name: "小薇学院", url:"null", 
 							   children: [ {name: "零基础HTML编码",url:"https://catsugar.github.io/my-ife2017/Task1/Task1.html"},
